@@ -6,7 +6,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (<>
-    <h1>Hello there...</h1><Product />
+
+    <h1>Hello there...</h1>
+   <h3> <Product name = "IPhone -14"/></h3>
+   <h3> <Product name = "DSLR-Camera"/></h3>
     </>
   )
 }

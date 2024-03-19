@@ -1,6 +1,11 @@
-function Product(){
+function Product(props){
+    let n = "Thor";
     return(
-        <h1>Hello I am a product component!!</h1>
+        <>
+          <div className="product">
+            {props.name}
+          </div>
+        </>
     )
 }
 export default Product;
